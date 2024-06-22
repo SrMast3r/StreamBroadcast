@@ -1,0 +1,13 @@
+messages: #Translate your message
+  invalidCommand: "<red>Uso incorrecto del comando. Debes especificar un enlace válido."
+  cooldownMessage: "<red>Debes esperar 10 minutos antes de usar este comando nuevamente."
+  invalidLink: "<red>El enlace proporcionado no es válido. Por favor, utiliza un enlace de Twitch, YouTube, Facebook, TikTok u otra plataforma de streaming."
+  announcementFormat: "\n<#8bf723> ☄ %s <white>esta en directo ahora"
+  space: ""
+  linkPrefix: "<reset><white>%s\n"
+commands: #Command Custom
+  aliases:
+    - directo
+    - live
+    - stream
+cooldown: 600 # Waiting time in seconds (10 minutes)
